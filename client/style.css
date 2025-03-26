@@ -1,0 +1,58 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container>div {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.container * {
+	font-size: 18px;
+	font-family: 'Cascadia Code';
+}
+
+.c1-container,
+.c2-container {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	height: 100%;
+	width: 100%;
+	border: 4px solid black;
+	background: gray;
+	color: rgb(0, 0, 0);
+}
+.person {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0;
+	border-bottom: 1px solid #ddd;
+}
+.person:last-child {
+	border-bottom: none;
+}
